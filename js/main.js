@@ -143,13 +143,13 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.setAttribute('role','img');
-  image.setAttribute('aria-label','restaurant image');
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
 
   const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   /* unique alt for the image */
-  image.setAttribute('alt','image of the '+name.innerHTML+' restaurant');
+  image.setAttribute('aria-label',name.innerHTML+' restaurant');
+  image.setAttribute('alt',name.innerHTML+' restaurant');
 
   li.append(image);
   li.append(name);

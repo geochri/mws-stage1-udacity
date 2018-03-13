@@ -44,14 +44,17 @@ RESPONSIVE SETTINGS
 
 	#restaurant-container{
 		margin: 5% 0 0;
-		padding: 10% 5% 10% 5%;
+		padding: 10% 5% 15% 5%;
 		width: 90%;
 	}
 
 	#restaurant-container img{
 		border-radius: 30px 0;
+		width: 100%;
 	}
-
+	#restaurant-container p{
+		width: 100%;
+	}
 	#reviews-container {
 		width: 90%;
 		margin: 0;
@@ -59,10 +62,11 @@ RESPONSIVE SETTINGS
 	}
 
 	#reviews-list li {
-	  padding: 5% 20px 20px;
+	  padding: 5%;
 		border-radius: 30px 0;
 		display: flex;
 		flex-wrap:wrap;
+		width: 90%;
 	}
 
 	#breadcrumb {
@@ -102,7 +106,7 @@ RESPONSIVE SETTINGS
 		padding: 3% 0 2% 0;
 	}
 	#restaurants-list {
-	  margin: 5% 15% 0 5%;
+	  margin: 5%;
 	  padding: 20px;
 	}
 	#restaurants-list li {
@@ -132,12 +136,16 @@ RESPONSIVE SETTINGS
 
 		#restaurant-container{
 			margin: 5% 0 0;
-			padding: 5% 5% 10% 5%;
+			padding: 5% 5% 15% 5%;
 			width: 90%;
 		}
 
 		#restaurant-container img{
 			border-radius: 30px 0;
+			width: 100%;
+		}
+		#restaurant-container p{
+			width: 100%;
 		}
 
 		#reviews-container {
@@ -147,10 +155,11 @@ RESPONSIVE SETTINGS
 		}
 
 		#reviews-list li {
-		  padding: 5% 20px 20px;
+		  padding: 5%;
 			border-radius: 30px 0;
 			display: flex;
 			flex-wrap:wrap;
+			width: 90%;
 		}
 
 		#breadcrumb {
@@ -183,13 +192,16 @@ RESPONSIVE SETTINGS
 		}
 
 		#restaurant-container{
-			margin: 5% 0 0;
 			padding: 3% 5% 10% 5%;
 			width: 90%;
 		}
 
 		#restaurant-container img{
 			border-radius: 30px 0;
+			width: 100%;
+		}
+		#restaurant-container p{
+			width: 100%;
 		}
 
 		#reviews-container {
@@ -199,10 +211,11 @@ RESPONSIVE SETTINGS
 		}
 
 		#reviews-list li {
-			padding: 5% 20px 20px;
+			padding: 5%;
 			border-radius: 30px 0;
 			display: flex;
 			flex-wrap:wrap;
+			width: 90%;
 		}
 
 		#breadcrumb {
@@ -218,6 +231,15 @@ RESPONSIVE SETTINGS
 	  text-align: left;
 	  width: 40%;
 		vertical-align: middle;
+	}
+	#restaurants-list{
+		margin: 0;
+		padding: 30px 0px 60px;
+	}
+	#restaurants-list li{
+		padding: 1%;
+		margin: 1%;
+		width: 46%;
 	}
 	/* */
 
@@ -244,6 +266,10 @@ RESPONSIVE SETTINGS
 
 		#restaurant-container img{
 			border-radius: 30px 0;
+			width: 100%;
+		}
+		#restaurant-container p{
+			width: 100%;
 		}
 
 		#reviews-container {
@@ -253,10 +279,11 @@ RESPONSIVE SETTINGS
 		}
 
 		#reviews-list li {
-			padding: 5% 20px 20px;
+			padding: 5%;
 			border-radius: 30px 0;
 			display: flex;
 			flex-wrap:wrap;
+			width: 90%;
 		}
 
 		#breadcrumb {
@@ -289,7 +316,15 @@ RESPONSIVE SETTINGS
 			width: 47%;
 
 		}
-
+		#restaurants-list{
+			margin: 0;
+			padding: 30px 0px 60px;
+		}
+		#restaurants-list li{
+			margin: 1%;
+			padding: 1%;
+			width: 29%;
+		}
 		#restaurant-container img{
 			border-radius: 30px 0;
 		}

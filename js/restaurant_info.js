@@ -65,6 +65,10 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
+  /* unique alt-arialabel */
+  image.setAttribute('aria-label',name.innerHTML+' restaurant');
+  image.setAttribute('alt',name.innerHTML+' restaurant');
+  
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
 
   const cuisine = document.getElementById('restaurant-cuisine');
