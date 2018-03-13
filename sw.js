@@ -1,12 +1,16 @@
-let version = "1.02";
+let version = "1.05";
 let cacheName = "restaurant_reviews-" + version;
 
 
 let allCaches = [
   "/",
+  "/index.html",
+  "/restaurant.html",
   "/js/main.js",
+  "/js/restaurant_info.js",
   "/css/responsive.css",
-  "/css/styles.css"
+  "/css/styles.css",
+  "/img",
 ];
 
 if ('serviceWorker' in navigator) {
